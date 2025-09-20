@@ -1,7 +1,0 @@
-key_name         = "sainath"
-dockerhub_user   = "sainathislavath"
-image_tag        = "latest"
-allowed_ssh_cidr = "49.36.111.216/32"
-allowed_cidr     = "0.0.0.0/0"
-instance_type    = "t3.micro"
-region           = "us-west-2"
