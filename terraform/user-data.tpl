@@ -18,8 +18,8 @@ docker pull ${frontend_image}
 
 # Stop & remove old containers if any
 for c in user products orders cart frontend; do
-  if docker ps -a --format '{{.Names}}' | grep -q "^${c}$"; then
-    docker rm -f ${c} || true
+  if docker ps -a --format '{{.Names}}' | grep -q "^$${c}$"; then
+    docker rm -f $${c} || true
   fi
 done
 
